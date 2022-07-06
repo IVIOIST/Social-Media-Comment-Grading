@@ -3,3 +3,5 @@ pandas
 numpy
 gradio
 matplotlib
+googleapiclient
+seaborn
