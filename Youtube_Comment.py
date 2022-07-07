@@ -32,7 +32,7 @@ def scrape_comment(id, maxnum, order):
     labels_list = ['Negative', 'Toxic', 'Obscene', 'Threat', 'Insult', 'Identity hate']
     data = youtube.commentThreads().list(part='snippet', order=order, videoId=id, maxResults=maxnum).execute()
     comment_list = []
-    for i in range(10):
+    for i in range(maxnum):
         comment = data['items'][i]['snippet']['topLevelComment']['snippet']['textDisplay']
         comment_list.append(comment)
     
