@@ -17,11 +17,11 @@ Check if tensorflow-gpu is installed
 ``` [Terminal]
 C:\> pip list
 ```
-Check if GPU is being recognised by the system and the  version of CUDA
+Check if GPU is being recognised by the system and take note of the CUDA version.
 ``` [Terminal]
 C:\> nvidia-smi
 ```
-In jupyter notebooks or python run the following command to see how many GPUs and CPUs Tensorflow recognises
+In jupyter notebooks or python run the following code to see how many GPUs and CPUs Tensorflow recognises
 ``` [Python]
 Import tensorflow as tf
 
