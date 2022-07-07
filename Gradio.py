@@ -35,7 +35,6 @@ def score_comment(comment):
         text += f'{col}:{round(prediction[0][idx]*100, 2)}%\n'
         prediction_list.append(float(prediction[0][idx]))
     dictionary = (dict(zip(labels_list, prediction_list)))   
-    print(type(dictionary)) 
     return dictionary
   
 outputs = [gr.Label(num_top_classes=6, label='Breakdown')]
