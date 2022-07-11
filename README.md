@@ -20,33 +20,33 @@ Please note that a trained model is already included and extra training does not
 #### 1. Running the Cells
 Once opened click on the play button on each cell to run.\
 Run the program from top to bottom.\
-![Alt text](.\images/train.png?raw=true "Title")
+![Alt text](/images/train.png?raw=true "Title")
 #### Gradio.py
 #### 1. Running the Program
 Click the play icon on the top right of the interface\
-![Alt text](.\images/gradio.png?raw=true "Title")
+![Alt text](/images/gradio.png?raw=true "Title")
 In the terminal (ctrl+shift+`) control click the link\
-![Alt text](.\images/terminal.png?raw=true "Title")
+![Alt text](/images/terminal.png?raw=true "Title")
 #### 2. Using Gradio
 In the red box fill in the desired comment or sentece and press submit.\
-![Alt text](.\images/gradioint.png?raw=true "Title")
+![Alt text](/images/gradioint.png?raw=true "Title")
 The returned results will be displayed on the right.\
-![Alt text](.\images/results.png?raw=true "Title")
+![Alt text](/images/results.png?raw=true "Title")
 #### Training.ipynb
 #### 1. Running the program
 Click the  play icon on the top right of the interface.\
-![Alt text](.\images/comment.png?raw=true "Title")
+![Alt text](/images/comment.png?raw=true "Title")
 In the terminal (ctrl+shift+`) control click the link.\
-![Alt text](.\images/comterm.png?raw=true "Title")
+![Alt text](/images/comterm.png?raw=true "Title")
 #### 2. Using the application
 Fill in the full URL for the desired YouTube Video.\
-![Alt text](.\images/vidurl.png?raw=true "Title")
+![Alt text](/images/vidurl.png?raw=true "Title")
 Select the number of comments to analyse.\
-![Alt text](.\images/comnum.png?raw=true "Title")
+![Alt text](/images/comnum.png?raw=true "Title")
 Choose the order in which the comments are requested.\
-![Alt text](.\images/order.png?raw=true "Title")
+![Alt text](/images/order.png?raw=true "Title")
 Click submit and wait for results.\
-![Alt text](.\images/comresults.png?raw=true "Title")
+![Alt text](/images/comresults.png?raw=true "Title")
 ## Troubleshooting 
 ### Module Not Found
 ```  [Terminal]
