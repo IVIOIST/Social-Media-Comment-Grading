@@ -1,8 +1,52 @@
-# Comment Toxicity Grading
+# YouTube Comment Grading using a Text Sentiment Analysis Neural Network
 ## Overview
 This project involves the training of a Recurrent Neural Network (RNN) to perform text sentiment analysis.\
-The idea of this project is to collect comments off of social media platforms and grade them accorting to 'toxicity'.\
+The idea of this project is to collect comments off of social media platforms and grade them according to 'toxicity' (levels of negativity).\
 However, the model for the RNN is also included and can be used for any other function.
+## Getting Started 
+### 0. Installing Dependenices
+As a prerequisite please make sure that all dependencies outlined in the requirements.txt file are installed either in a global environment of a virtual environment.
+### 1. Different Files
+There are three main source files in this repository are outlined below.
+#### Training.ipynb
+A jupyter notebook containing the code used to train the RNN.
+#### Gradio.py
+A simple implementation and proof of concept used for interacting with the trained model.
+#### Youtube_Comment.py
+A real world application of the model using data gathered from the Youtube Data API to outline the negativity and other characteristics of comments on any video on YouTube.
+### 2. Using the Files
+#### Training.ipynb
+Please note that a trained model is already included and extra training does not have to be done.
+#### 1. Running the Cells
+Once opened click on the play button on each cell to run.\
+Run the program from top to bottom.\
+![Alt text](.\images/train.png?raw=true "Title")
+#### Gradio.py
+#### 1. Running the Program
+Click the play icon on the top right of the interface\
+![Alt text](.\images/gradio.png?raw=true "Title")
+In the terminal (ctrl+shift+`) control click the link\
+![Alt text](.\images/terminal.png?raw=true "Title")
+#### 2. Using Gradio
+In the red box fill in the desired comment or sentece and press submit.\
+![Alt text](.\images/gradioint.png?raw=true "Title")
+The returned results will be displayed on the right.\
+![Alt text](.\images/results.png?raw=true "Title")
+#### Training.ipynb
+#### 1. Running the program
+Click the  play icon on the top right of the interface.\
+![Alt text](.\images/comment.png?raw=true "Title")
+In the terminal (ctrl+shift+`) control click the link.\
+![Alt text](.\images/comterm.png?raw=true "Title")
+#### 2. Using the application
+Fill in the full URL for the desired YouTube Video.\
+![Alt text](.\images/vidurl.png?raw=true "Title")
+Select the number of comments to analyse.\
+![Alt text](.\images/comnum.png?raw=true "Title")
+Choose the order in which the comments are requested.\
+![Alt text](.\images/order.png?raw=true "Title")
+Click submit and wait for results.\
+![Alt text](.\images/comresults.png?raw=true "Title")
 ## Troubleshooting 
 ### Module Not Found
 ```  [Terminal]
