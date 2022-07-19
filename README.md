@@ -86,5 +86,5 @@ CPU = tf.config.list_physical_devices('CPU')
 print(f'Available GPU/s:{len(GPU)}')
 print(f'Available CPU/s:{len(CPU)}')
 ```
-Once everything is checked go to https://www.tensorflow.org/install/source#tested_build_configurations and check if the versions match up if not, install the correct versions.
+Once everything is checked go to [here](https://www.tensorflow.org/install/source_windows#gpu) and check if the versions match up. If not, install the correct versions.
 ### For other errors please contact me, I will try my best to resolve them
