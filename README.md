@@ -1,12 +1,24 @@
-# YouTube Comment Grading using a Text Sentiment Analysis Neural Network
+# Text Sentiment Analysis with a Recursive Neural Network
 ## Overview
-This project involves the training of a Recurrent Neural Network (RNN) to perform text sentiment analysis.\
-The idea of this project is to collect comments off of social media platforms and grade them according to 'toxicity' (levels of negativity).\
-However, the model for the RNN is also included and can be used for any other function.
+- This project involves the training of a Recurrent Neural Network (RNN) to perform text sentiment analysis.
+- The idea of this project is to collect comments off of social media platforms and grade them according to 'toxicity' (levels of negativity).
+- The model for the RNN is also included and can be used for any other function.
 ## Getting Started 
-### 0. Installing Dependenices
-As a prerequisite please make sure that all dependencies outlined in the requirements.txt file are installed either in a global environment of a virtual environment.
-### 1. Different Files
+As a prerequisite please make sure that:
+- All dependencies outlined in the requirements.txt file are installed either in a global environment of a virtual environment.
+- Git the latest version of Git is installed 
+- Python 3.9+ is installed and added to the system path
+- It is expected that the GPU environment, if available, is correctly installed
+### 0. Cloning Repository and Installing Dependencies
+#### 1. Clone the repository
+``` [Terminal]
+C:\> git clone https://github.com/IVIOIST/Social-Media-Comment-Grading
+```
+#### 2. Installing dependencies via requirements.txt
+``` [Terminal]
+C:\> pip install -r requirements.txt
+```
+### 1. Overview of Files
 There are three main source files in this repository are outlined below.
 #### Training.ipynb
 A jupyter notebook containing the code used to train the RNN.
@@ -75,3 +87,4 @@ print(f'Available GPU/s:{len(GPU)}')
 print(f'Available CPU/s:{len(CPU)}')
 ```
 Once everything is checked go to https://www.tensorflow.org/install/source#tested_build_configurations and check if the versions match up if not, install the correct versions.
+### For other errors please contact me, I will try my best to resolve them
