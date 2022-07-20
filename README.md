@@ -78,7 +78,7 @@ Check if GPU is being recognised by the system and take note of the CUDA version
 C:\> nvidia-smi
 ```
 In jupyter notebooks or python run the following code to see how many GPUs and CPUs Tensorflow recognises
-``` [Python]
+```python
 Import tensorflow as tf
 
 GPU = tf.config.list_physical_devices('GPU')
